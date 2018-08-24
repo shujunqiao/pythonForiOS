@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A1DE2D17C4FE4E00B87DED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A1DE2C17C4FE4E00B87DED /* UIKit.framework */; };
+		04A1DE2F17C4FE4E00B87DED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A1DE2E17C4FE4E00B87DED /* Foundation.framework */; };
+		04A1DE3117C4FE4E00B87DED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A1DE3017C4FE4E00B87DED /* CoreGraphics.framework */; };
+		04A1DE3717C4FE4E00B87DED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04A1DE3517C4FE4E00B87DED /* InfoPlist.strings */; };
+		04A1DE3917C4FE4E00B87DED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1DE3817C4FE4E00B87DED /* main.m */; };
+		04A1DE3D17C4FE4E00B87DED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1DE3C17C4FE4E00B87DED /* AppDelegate.m */; };
+		04A1DE3F17C4FE4E00B87DED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A1DE3E17C4FE4E00B87DED /* Default.png */; };
+		04A1DE4117C4FE4E00B87DED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A1DE4017C4FE4E00B87DED /* Default@2x.png */; };
+		04A1DE4317C4FE4E00B87DED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A1DE4217C4FE4E00B87DED /* Default-568h@2x.png */; };
+		04A1DE4617C4FE4E00B87DED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1DE4517C4FE4E00B87DED /* ViewController.m */; };
+		04A1DE4917C4FE4E00B87DED /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A1DE4717C4FE4E00B87DED /* ViewController_iPhone.xib */; };
+		04A1DE4C17C4FE4E00B87DED /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A1DE4A17C4FE4E00B87DED /* ViewController_iPad.xib */; };
+		04A1DE5817C501B300B87DED /* python in Resources */ = {isa = PBXBuildFile; fileRef = 04A1DE5717C501B300B87DED /* python */; };
+		1E4E01C91D266E3F00BB5967 /* server.py in Resources */ = {isa = PBXBuildFile; fileRef = 1E4E01C81D266E3F00BB5967 /* server.py */; };
+		1EE451501D26771D00F24F58 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4514D1D26771D00F24F58 /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1EE451511D26771D00F24F58 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4514F1D26771D00F24F58 /* AsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1EE451531D268C0600F24F58 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE451521D268C0600F24F58 /* CFNetwork.framework */; };
+		C2896AAF212EBA1C00209D10 /* liblibPython.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2896AAE212EBA1B00209D10 /* liblibPython.a */; };
+		C2896B28212FCFC500209D10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2896B27212FCFC500209D10 /* AppDelegate.m */; };
+		C2896B2A212FCFC500209D10 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C2896B29212FCFC500209D10 /* GameScene.sks */; };
+		C2896B2C212FCFC500209D10 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C2896B2B212FCFC500209D10 /* Actions.sks */; };
+		C2896B2F212FCFC500209D10 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C2896B2E212FCFC500209D10 /* GameScene.m */; };
+		C2896B32212FCFC500209D10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2896B31212FCFC500209D10 /* ViewController.m */; };
+		C2896B34212FCFC600209D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2896B33212FCFC600209D10 /* Assets.xcassets */; };
+		C2896B37212FCFC600209D10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2896B35212FCFC600209D10 /* Main.storyboard */; };
+		C2896B3A212FCFC700209D10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2896B39212FCFC700209D10 /* main.m */; };
+		C2896B40212FD10F00209D10 /* liblibPythonMac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2896B3F212FD10F00209D10 /* liblibPythonMac.a */; };
+		C2896B41212FD19400209D10 /* python in Resources */ = {isa = PBXBuildFile; fileRef = 04A1DE5717C501B300B87DED /* python */; };
+		C2896B42212FD22300209D10 /* server.py in Resources */ = {isa = PBXBuildFile; fileRef = 1E4E01C81D266E3F00BB5967 /* server.py */; };
+		C2896B44212FD25600209D10 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2896B43212FD25600209D10 /* CFNetwork.framework */; };
+		C2896B46212FD26D00209D10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2896B45212FD26C00209D10 /* Foundation.framework */; };
+		C2896B48212FD28700209D10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2896B47212FD28700209D10 /* CoreGraphics.framework */; };
+		C2896B4A212FD3CA00209D10 /* server2.py in Resources */ = {isa = PBXBuildFile; fileRef = C2896B49212FD3CA00209D10 /* server2.py */; };
+		C2896B4B212FD3D700209D10 /* server2.py in Resources */ = {isa = PBXBuildFile; fileRef = C2896B49212FD3CA00209D10 /* server2.py */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04A1DE2917C4FE4E00B87DED /* Python-iOS-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Python-iOS-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A1DE2C17C4FE4E00B87DED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04A1DE2E17C4FE4E00B87DED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04A1DE3017C4FE4E00B87DED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04A1DE3417C4FE4E00B87DED /* Python-iOS-app-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Python-iOS-app-Info.plist"; sourceTree = "<group>"; };
+		04A1DE3617C4FE4E00B87DED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04A1DE3817C4FE4E00B87DED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04A1DE3A17C4FE4E00B87DED /* Python-iOS-app-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Python-iOS-app-Prefix.pch"; sourceTree = "<group>"; };
+		04A1DE3B17C4FE4E00B87DED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04A1DE3C17C4FE4E00B87DED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04A1DE3E17C4FE4E00B87DED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		04A1DE4017C4FE4E00B87DED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		04A1DE4217C4FE4E00B87DED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		04A1DE4417C4FE4E00B87DED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04A1DE4517C4FE4E00B87DED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04A1DE4817C4FE4E00B87DED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		04A1DE4B17C4FE4E00B87DED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		04A1DE5717C501B300B87DED /* python */ = {isa = PBXFileReference; lastKnownFileType = folder; name = python; path = "Python-iOS-app/python"; sourceTree = "<group>"; };
+		1E4E01C81D266E3F00BB5967 /* server.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = server.py; sourceTree = "<group>"; };
+		1EE4514C1D26771D00F24F58 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		1EE4514D1D26771D00F24F58 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		1EE4514E1D26771D00F24F58 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		1EE4514F1D26771D00F24F58 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+		1EE451521D268C0600F24F58 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C2896AAE212EBA1B00209D10 /* liblibPython.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibPython.a; sourceTree = "<group>"; };
+		C2896B1F212FCF4600209D10 /* Python-iOS-app copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Python-iOS-app copy-Info.plist"; path = "/Users/qwe/workspace/tools/RunPythonInIOS-master/PythonIniOS-master/Python-iOS/Python-iOS-app copy-Info.plist"; sourceTree = "<absolute>"; };
+		C2896B24212FCFC500209D10 /* Python-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Python-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2896B26212FCFC500209D10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2896B27212FCFC500209D10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2896B29212FCFC500209D10 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		C2896B2B212FCFC500209D10 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		C2896B2D212FCFC500209D10 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		C2896B2E212FCFC500209D10 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		C2896B30212FCFC500209D10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C2896B31212FCFC500209D10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C2896B33212FCFC600209D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2896B36212FCFC600209D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2896B38212FCFC600209D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2896B39212FCFC700209D10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2896B3B212FCFC700209D10 /* Python_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Python_Mac.entitlements; sourceTree = "<group>"; };
+		C2896B3F212FD10F00209D10 /* liblibPythonMac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibPythonMac.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2896B43212FD25600209D10 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		C2896B45212FD26C00209D10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C2896B47212FD28700209D10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		C2896B49212FD3CA00209D10 /* server2.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = server2.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A1DE2617C4FE4E00B87DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE451531D268C0600F24F58 /* CFNetwork.framework in Frameworks */,
+				C2896AAF212EBA1C00209D10 /* liblibPython.a in Frameworks */,
+				04A1DE2D17C4FE4E00B87DED /* UIKit.framework in Frameworks */,
+				04A1DE2F17C4FE4E00B87DED /* Foundation.framework in Frameworks */,
+				04A1DE3117C4FE4E00B87DED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2896B21212FCFC500209D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2896B48212FD28700209D10 /* CoreGraphics.framework in Frameworks */,
+				C2896B46212FD26D00209D10 /* Foundation.framework in Frameworks */,
+				C2896B44212FD25600209D10 /* CFNetwork.framework in Frameworks */,
+				C2896B40212FD10F00209D10 /* liblibPythonMac.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A1DE2017C4FE4E00B87DED = {
+			isa = PBXGroup;
+			children = (
+				04A1DE5617C500B500B87DED /* Bundles */,
+				C2896AAE212EBA1B00209D10 /* liblibPython.a */,
+				C2896B49212FD3CA00209D10 /* server2.py */,
+				1E4E01C81D266E3F00BB5967 /* server.py */,
+				04A1DE3217C4FE4E00B87DED /* Python-iOS-app */,
+				C2896B25212FCFC500209D10 /* Python-Mac */,
+				04A1DE2B17C4FE4E00B87DED /* Frameworks */,
+				04A1DE2A17C4FE4E00B87DED /* Products */,
+				C2896B1F212FCF4600209D10 /* Python-iOS-app copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		04A1DE2A17C4FE4E00B87DED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A1DE2917C4FE4E00B87DED /* Python-iOS-app.app */,
+				C2896B24212FCFC500209D10 /* Python-Mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A1DE2B17C4FE4E00B87DED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2896B47212FD28700209D10 /* CoreGraphics.framework */,
+				C2896B45212FD26C00209D10 /* Foundation.framework */,
+				C2896B43212FD25600209D10 /* CFNetwork.framework */,
+				C2896B3F212FD10F00209D10 /* liblibPythonMac.a */,
+				1EE451521D268C0600F24F58 /* CFNetwork.framework */,
+				04A1DE2C17C4FE4E00B87DED /* UIKit.framework */,
+				04A1DE2E17C4FE4E00B87DED /* Foundation.framework */,
+				04A1DE3017C4FE4E00B87DED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04A1DE3217C4FE4E00B87DED /* Python-iOS-app */ = {
+			isa = PBXGroup;
+			children = (
+				04A1DE3B17C4FE4E00B87DED /* AppDelegate.h */,
+				04A1DE3C17C4FE4E00B87DED /* AppDelegate.m */,
+				04A1DE4417C4FE4E00B87DED /* ViewController.h */,
+				04A1DE4517C4FE4E00B87DED /* ViewController.m */,
+				04A1DE4717C4FE4E00B87DED /* ViewController_iPhone.xib */,
+				04A1DE4A17C4FE4E00B87DED /* ViewController_iPad.xib */,
+				1EE4514B1D26771D00F24F58 /* AsyncSocket */,
+				04A1DE3317C4FE4E00B87DED /* Supporting Files */,
+			);
+			path = "Python-iOS-app";
+			sourceTree = "<group>";
+		};
+		04A1DE3317C4FE4E00B87DED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04A1DE3417C4FE4E00B87DED /* Python-iOS-app-Info.plist */,
+				04A1DE3517C4FE4E00B87DED /* InfoPlist.strings */,
+				04A1DE3817C4FE4E00B87DED /* main.m */,
+				04A1DE3A17C4FE4E00B87DED /* Python-iOS-app-Prefix.pch */,
+				04A1DE3E17C4FE4E00B87DED /* Default.png */,
+				04A1DE4017C4FE4E00B87DED /* Default@2x.png */,
+				04A1DE4217C4FE4E00B87DED /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04A1DE5617C500B500B87DED /* Bundles */ = {
+			isa = PBXGroup;
+			children = (
+				04A1DE5717C501B300B87DED /* python */,
+			);
+			name = Bundles;
+			sourceTree = "<group>";
+		};
+		1EE4514B1D26771D00F24F58 /* AsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				1EE4514C1D26771D00F24F58 /* AsyncSocket.h */,
+				1EE4514D1D26771D00F24F58 /* AsyncSocket.m */,
+				1EE4514E1D26771D00F24F58 /* AsyncUdpSocket.h */,
+				1EE4514F1D26771D00F24F58 /* AsyncUdpSocket.m */,
+			);
+			path = AsyncSocket;
+			sourceTree = "<group>";
+		};
+		C2896B25212FCFC500209D10 /* Python-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				C2896B26212FCFC500209D10 /* AppDelegate.h */,
+				C2896B27212FCFC500209D10 /* AppDelegate.m */,
+				C2896B29212FCFC500209D10 /* GameScene.sks */,
+				C2896B2B212FCFC500209D10 /* Actions.sks */,
+				C2896B2D212FCFC500209D10 /* GameScene.h */,
+				C2896B2E212FCFC500209D10 /* GameScene.m */,
+				C2896B30212FCFC500209D10 /* ViewController.h */,
+				C2896B31212FCFC500209D10 /* ViewController.m */,
+				C2896B33212FCFC600209D10 /* Assets.xcassets */,
+				C2896B35212FCFC600209D10 /* Main.storyboard */,
+				C2896B38212FCFC600209D10 /* Info.plist */,
+				C2896B39212FCFC700209D10 /* main.m */,
+				C2896B3B212FCFC700209D10 /* Python_Mac.entitlements */,
+			);
+			path = "Python-Mac";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A1DE2817C4FE4E00B87DED /* Python-iOS-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A1DE4F17C4FE4E00B87DED /* Build configuration list for PBXNativeTarget "Python-iOS-app" */;
+			buildPhases = (
+				04A1DE2517C4FE4E00B87DED /* Sources */,
+				04A1DE2617C4FE4E00B87DED /* Frameworks */,
+				04A1DE2717C4FE4E00B87DED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Python-iOS-app";
+			productName = "Python-iOS-app";
+			productReference = 04A1DE2917C4FE4E00B87DED /* Python-iOS-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2896B23212FCFC500209D10 /* Python-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2896B3C212FCFC700209D10 /* Build configuration list for PBXNativeTarget "Python-Mac" */;
+			buildPhases = (
+				C2896B20212FCFC500209D10 /* Sources */,
+				C2896B21212FCFC500209D10 /* Frameworks */,
+				C2896B22212FCFC500209D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Python-Mac";
+			productName = "Python-Mac";
+			productReference = C2896B24212FCFC500209D10 /* Python-Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A1DE2117C4FE4E00B87DED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Fancyzero;
+				TargetAttributes = {
+					04A1DE2817C4FE4E00B87DED = {
+						DevelopmentTeam = 3YP2BV4VJQ;
+					};
+					C2896B23212FCFC500209D10 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04A1DE2417C4FE4E00B87DED /* Build configuration list for PBXProject "Python-iOS-app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04A1DE2017C4FE4E00B87DED;
+			productRefGroup = 04A1DE2A17C4FE4E00B87DED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A1DE2817C4FE4E00B87DED /* Python-iOS-app */,
+				C2896B23212FCFC500209D10 /* Python-Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A1DE2717C4FE4E00B87DED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A1DE3717C4FE4E00B87DED /* InfoPlist.strings in Resources */,
+				04A1DE3F17C4FE4E00B87DED /* Default.png in Resources */,
+				04A1DE4117C4FE4E00B87DED /* Default@2x.png in Resources */,
+				C2896B4A212FD3CA00209D10 /* server2.py in Resources */,
+				1E4E01C91D266E3F00BB5967 /* server.py in Resources */,
+				04A1DE4317C4FE4E00B87DED /* Default-568h@2x.png in Resources */,
+				04A1DE4917C4FE4E00B87DED /* ViewController_iPhone.xib in Resources */,
+				04A1DE4C17C4FE4E00B87DED /* ViewController_iPad.xib in Resources */,
+				04A1DE5817C501B300B87DED /* python in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2896B22212FCFC500209D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2896B4B212FD3D700209D10 /* server2.py in Resources */,
+				C2896B42212FD22300209D10 /* server.py in Resources */,
+				C2896B41212FD19400209D10 /* python in Resources */,
+				C2896B2A212FCFC500209D10 /* GameScene.sks in Resources */,
+				C2896B34212FCFC600209D10 /* Assets.xcassets in Resources */,
+				C2896B2C212FCFC500209D10 /* Actions.sks in Resources */,
+				C2896B37212FCFC600209D10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A1DE2517C4FE4E00B87DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A1DE3917C4FE4E00B87DED /* main.m in Sources */,
+				1EE451511D26771D00F24F58 /* AsyncUdpSocket.m in Sources */,
+				04A1DE3D17C4FE4E00B87DED /* AppDelegate.m in Sources */,
+				04A1DE4617C4FE4E00B87DED /* ViewController.m in Sources */,
+				1EE451501D26771D00F24F58 /* AsyncSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2896B20212FCFC500209D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2896B32212FCFC500209D10 /* ViewController.m in Sources */,
+				C2896B2F212FCFC500209D10 /* GameScene.m in Sources */,
+				C2896B3A212FCFC700209D10 /* main.m in Sources */,
+				C2896B28212FCFC500209D10 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04A1DE3517C4FE4E00B87DED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A1DE3617C4FE4E00B87DED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04A1DE4717C4FE4E00B87DED /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A1DE4817C4FE4E00B87DED /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		04A1DE4A17C4FE4E00B87DED /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A1DE4B17C4FE4E00B87DED /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		C2896B35212FCFC600209D10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2896B36212FCFC600209D10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04A1DE4D17C4FE4E00B87DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					libPython,
+					libPython/Include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04A1DE4E17C4FE4E00B87DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					libPython,
+					libPython/Include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04A1DE5017C4FE4E00B87DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3YP2BV4VJQ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Python-iOS-app/Python-iOS-app-Prefix.pch";
+				INFOPLIST_FILE = "Python-iOS-app/Python-iOS-app-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/python-ios-eyuhldwtuimkzneexvqyamsdhzfq/Build/Products/Debug-iphoneos\"",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.starfox.Python-iOS-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04A1DE5117C4FE4E00B87DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3YP2BV4VJQ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Python-iOS-app/Python-iOS-app-Prefix.pch";
+				INFOPLIST_FILE = "Python-iOS-app/Python-iOS-app-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/python-ios-eyuhldwtuimkzneexvqyamsdhzfq/Build/Products/Debug-iphoneos\"",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.starfox.Python-iOS-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C2896B3D212FCFC700209D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = "Python-Mac/Python_Mac.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "Python-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.mygame.Python-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C2896B3E212FCFC700209D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = "Python-Mac/Python_Mac.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "Python-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.mygame.Python-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A1DE2417C4FE4E00B87DED /* Build configuration list for PBXProject "Python-iOS-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A1DE4D17C4FE4E00B87DED /* Debug */,
+				04A1DE4E17C4FE4E00B87DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A1DE4F17C4FE4E00B87DED /* Build configuration list for PBXNativeTarget "Python-iOS-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A1DE5017C4FE4E00B87DED /* Debug */,
+				04A1DE5117C4FE4E00B87DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2896B3C212FCFC700209D10 /* Build configuration list for PBXNativeTarget "Python-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2896B3D212FCFC700209D10 /* Debug */,
+				C2896B3E212FCFC700209D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04A1DE2117C4FE4E00B87DED /* Project object */;
+}
